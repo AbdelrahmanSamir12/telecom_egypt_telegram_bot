@@ -73,4 +73,26 @@ here's descreption about the variables:
 - You no longer need to encrypt the password before sending it. 
 - You no longer need to create a token before logging in.
 - you can see the old version in the **old version** file
-  
+
+# Update 2:
+
+## Utilizing the Script in Command Line
+
+You can use the script in Command Line ("cmd") or terminal on Windows.
+
+![script cmd demo](./Command%20Line/cmd_demo.gif)
+
+### Initial Setup
+For the first time, you need to enter your login credentials for MyWe. These credentials will be saved in a SQLite file. You can manage your credentials using the following arguments:
+
+- `--delete-credentials` to delete your credentials
+- `--set-credentials` to update your credentials
+
+### Steps to Use the Script
+1. Download the executable file from the release and place it in your user directory.
+2. Open Command Line (cmd) or terminal.
+3. Execute the script:
+   - For Command Line, type `we`.
+   - For terminal, type `we.exe`.
+
+
